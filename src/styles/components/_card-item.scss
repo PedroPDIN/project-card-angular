@@ -1,0 +1,13 @@
+.c-card-item {     // O "c" significa componente já que é uma classe global, serve para indicar a sua finalidade.
+  display: flex;
+  align-items: center;
+  padding: 20px;
+
+  p:nth-of-type(1) {
+    margin-right: auto;
+  }
+
+  // ou
+
+  // justify-content: space-between;
+}
